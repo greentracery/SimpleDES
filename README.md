@@ -20,7 +20,7 @@ Homepage: https://github.com/greentracery/SimpleDES
     
     from simpledes.simpledes import Des, TripleDes
     
-    c1 = Des("passphrase" [, bias=[0..n])
+    c1 = Des("passphrase" [, bias=[0..n]) 
     
     encrypted_data = c1.encrypt(source_data [, b64=True|False])
     
@@ -36,16 +36,8 @@ Homepage: https://github.com/greentracery/SimpleDES
 
 See also [pyDEC documentation](https://github.com/twhiteman/pyDes)
 
-## P.S.
 
-You can download install package directly:
-
-```
-    wget https://github.com/greentracery/SimpleDES/blob/main/dist/SimpleDES-1.0.tar.gz
-
-```
-
-## P.P.S:
+## P.S:
 
 If you get some error like this:
 
