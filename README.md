@@ -1,18 +1,24 @@
-# SimpleDES
-
-Simple wrapper for pyDES library
+# SimpleDES - the simplest wrapper for pyDES library
 
 Homepage: https://github.com/greentracery/SimpleDES
     
 ## Requirements:
 
     - pyDES
-    
+
 ## Usage:
+
+### Preparing:
+    
+    1. Install package: pip install dist/SimpleDES-_version_.tar.gz
+    
+    2. Or copy required files manually in your project folder & install requirements
+    
+### Code:
 
 ```python
     
-    from . simpledes import Des, TripleDes
+    from simpledes.simpledes import Des, TripleDes
     
     c1 = Des("passphrase" [, bias=[0..n])
     
@@ -28,4 +34,25 @@ Homepage: https://github.com/greentracery/SimpleDES
     
 ```
 
-See also pyDEC documentation on https://github.com/twhiteman/pyDes
+See also [pyDEC documentation](https://github.com/twhiteman/pyDes)
+
+## P.S.
+
+You can download install package directly:
+
+```
+    wget https://github.com/greentracery/SimpleDES/blob/main/dist/SimpleDES-1.0.tar.gz
+
+```
+
+## P.P.S:
+
+If you get some error like this:
+
+```
+    def encrypt(self, src_data, b64: bool = False):
+                                   ^
+    SyntaxError: invalid syntax
+
+```
+- it means that you are using Python 2.x. SimpleDES doesn't works with Python 2.x

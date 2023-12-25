@@ -1,5 +1,6 @@
+# Using SimpleDES
 
-from simpledes import Des, TripleDes
+from simpledes.simpledes import Des, TripleDes
 
 def getBias():
     while True:
