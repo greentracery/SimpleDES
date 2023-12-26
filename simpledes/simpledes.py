@@ -44,7 +44,7 @@ class Crypton(ABC): #Prohibits the creation of the class object directly
             
             :param src_data: Original data that must be encrypted 
             :param b64: Return encrypted result encoded in base64 (optional, default False)
-            :returns: Encrypted data
+            :return: Encrypted data
         """
         enc_data = self.k.encrypt(src_data)
         if b64:
@@ -58,7 +58,7 @@ class Crypton(ABC): #Prohibits the creation of the class object directly
             :param enc_data: Encrypted data that must be decrypted 
             :param b64: Encrypted data encoded in base64 (optional, default False)
             :param encodind: Encoding of decrypted data (optional, default UTF-8)
-            :returns: Decrypted data
+            :return: Decrypted data
         """
         if b64:
             enc_data = base64.b64decode(enc_data)

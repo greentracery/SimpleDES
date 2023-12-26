@@ -1,4 +1,4 @@
-# Using SimpleDES
+# Usage of SimpleDES module:
 
 from simpledes.simpledes import Des, TripleDes
 

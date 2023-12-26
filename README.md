@@ -3,18 +3,18 @@
 Homepage: https://github.com/greentracery/SimpleDES
     
 ## Requirements:
+    
+    - Python >= 3.5
 
     - pyDES
 
-## Usage:
-
-### Preparing:
+## Preparing:
     
-    1. Install package: pip install dist/SimpleDES-_version_.tar.gz
+    1. Install package: pip install dist/SimpleDES-*version*.tar.gz
     
     2. Or copy required files manually in your project folder & install requirements
     
-### Code:
+## Usage:
 
 ```python
     
@@ -34,17 +34,8 @@ Homepage: https://github.com/greentracery/SimpleDES
     
 ```
 
+See also [sample.py]
+
+## Ext.documentation:
+
 See also [pyDEC documentation](https://github.com/twhiteman/pyDes)
-
-
-## P.S:
-
-If you get some error like this:
-
-```
-    def encrypt(self, src_data, b64: bool = False):
-                                   ^
-    SyntaxError: invalid syntax
-
-```
-- it means that you are using Python 2.x. SimpleDES doesn't works with Python 2.x
