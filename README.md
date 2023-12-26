@@ -10,9 +10,9 @@ Homepage: https://github.com/greentracery/SimpleDES
 
 ## Preparing:
     
-    1. Install package: pip install dist/SimpleDES-*version*.tar.gz
+    - Install package: pip install dist/SimpleDES-[version].tar.gz
     
-    2. Or copy required files manually in your project folder & install requirements
+    - Or copy required files manually in your project folder & install requirements
     
 ## Usage:
 
@@ -34,7 +34,7 @@ Homepage: https://github.com/greentracery/SimpleDES
     
 ```
 
-See also [sample.py]
+See also [sample.py](https://github.com/greentracery/SimpleDES/blob/main/sample.py)
 
 ## Ext.documentation:
 
